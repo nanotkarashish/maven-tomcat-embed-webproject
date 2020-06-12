@@ -12,13 +12,10 @@
     <url>http://maven.apache.org</url>
 
     <properties>
+        <maven.compiler.source>1.6</maven.compiler.source>
+        <maven.compiler.target>1.6</maven.compiler.target>
         <tomcat.version>9.0.35</tomcat.version>
     </properties>
-    <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-compiler-plugin</artifactId>
-        <version>3.8.0</version>
-    </plugin>
 
     <dependencies>
 
